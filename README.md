@@ -1,4 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Document Q&A Frontend
+
+A Next.js application that allows users to upload documents and ask questions about their content, powered by AI. The application features a modern, brutalist design with a responsive interface.
+
+## Features
+
+- Document upload support (PDF and TXT files)
+- AI-powered question answering
+- Query history tracking
+- Real-time response streaming
+- Modern brutalist UI design
+- Fully responsive layout
+
+## Prerequisites
+
+Before you begin, ensure you have installed:
+- Node.js (Latest LTS version recommended)
+- npm, yarn, or pnpm package manager
+
+## Environment Variables
+
+Create a `.env.local` file in the root directory with the following variables:
+
+```env
+NEXT_PUBLIC_API_BASE_URL=your_api_base_url
+```
 
 ## Getting Started
 
